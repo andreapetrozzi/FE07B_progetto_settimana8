@@ -21,3 +21,23 @@ This method will have to:
 1. Update available charge,
 2. And "increment" the variable containing the number of calls made from the mobile phone
    (assume a cost of 0.20 euro for each call minute),
+   
+            *********
+             METHODS:
+             recharge(credit number, double unaRecharge)
+             call(credit number, double minutesDuration)
+             number404()
+             getNumber of Calls()
+             resetCalls()
+
+             a method public number number404(),
+             which returns the value of the available charge.
+            
+             A public number getNumberCall() method,
+             which returns the value of the instance variable numberCalls.
+            
+             Finally, a public void method clearsCall(),
+             which resets the variable containing the number of calls made from the mobile phone.
+
+             *********
+             Check the remaining balance of each user and how many calls have been made.
