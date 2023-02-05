@@ -1,20 +1,23 @@
 # FE07B_progetto_settimana8
 Designing a Smartphone interface using typescript
 
-## Descrizione ##
-Progettare un interfaccia di nome Smartphone, per rappresentare un telefono cellulare
-con contratto a ricarica.
+### Description
+Design an interface named "Smartphone", to represent a mobile phone with "contract" to "recharge".
+This interface has "two instance variables":
 
-Tale interfaccia prevede due variabili d'istanza. 
-- La prima variabile d'istanza è definita come number carica, e rappresenta il quantitativo di euro
-disponibile per le chiamate. 
-- La seconda variabile d'istanza e' definita come number numeroChiamate, e rappresenta il numero di chiamate effettuate con
-il cellulare.Le classi FirstUser-SecondUser-ThirdUser devono implementare l'interfaccia con i seguenti metodi: 
-    1) Un metodo definito come public void ricarica(double unaRicarica), che ricarica il telefonino. 
-    2) Un metodo definito come public void chiamata(double minutiDurata), che effettua una chiamata di durata in minuti specificata dal parametro esplicito.
-      Tale metodo dovra' aggiornare la carica disponibile, ed incrementare la variabile contenente il numero di chiamate effettuate dal telefonino (si assuma un costo
-       di 0.20 euro per ogni minuto di chiamata),un metodo public number numero404(), che restituisce il valore della carica disponibile.
-    3) Un metodo public number getNumeroChiamate(), che restituisce il valore della variabile d'istanza numeroChiamate. 
-    4) Infine, un metodo public void azzeraChiamate(), che azzera la variabile contenente il numero di chiamate effettuate dal telefonino.
+1. The first instance variable is defined as "number -> load",
+   and represents the amount of euros available for calls;
+2. The second instance variable is defined as "number -> number of calls",
+   and represents the number of calls made with the mobile phone.
+    
+    
+The "FirstUser-SecondUser-ThirdUser" classes must implement the interface with the following methods:
 
-Verificare il saldo residuo di ogni utente e quante chiamate sono state effettuate.
+1. A method defined as "public void recharge(double(number) aRecharge), recharging the phone;
+2. A method defined as public void call(double minutesDuration),
+   which makes a call of duration in minutes specified by the explicit parameter.
+
+This method will have to:
+1. Update available charge,
+2. And "increment" the variable containing the number of calls made from the mobile phone
+   (assume a cost of 0.20 euro for each call minute),
